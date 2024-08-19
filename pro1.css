@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    padding: 0 25px;
+}
+
+/*-------- HEADER --------*/
+#main-header {
+    background-color: rgb(0, 126, 0);
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+#header-title {
+    color: white;
+    font-size: 40px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between; /* Positions the title and search box on opposite sides */
+    align-items: center;
+    width: 100%; /* Ensure the row takes up full width */
+  
+}
+.col-md-6-align-self-center{
+    margin-left: 300px;
+}
+#header-title {
+    margin: 0;
+}
+
+#filter {
+    width: 250px; /* Adjust the width of the search box as needed */
+}
+
+/*-------- MAIN CONTENT --------*/
+#main {
+    border: 1px solid rgb(180, 180, 180);
+    padding: 60px;
+    margin-top: 20px;
+}
+
+.title {
+    margin: 20px 0;
+    font-size: 30px;
+}
+
+.title:first-child {
+    margin-top: 0;
+
+}
+
+input {
+    height: 30px;
+    border: 1px solid rgb(180, 180, 180);
+}
+
+.btn {
+    background-color: rgb(39, 39, 39);
+    color: white;
+    width: 100px;
+    border: 0;
+    cursor: pointer;
+}
+
+.list-group-item {
+    border-bottom: 1px solid rgb(180, 180, 180);
+    list-style-type: none;
+    margin-bottom: 20px;
+}
+
+.list-group-item:last-child {
+    margin-bottom: 10px;
+}
